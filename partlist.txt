@@ -1,0 +1,68 @@
+Partlist
+
+Exported from esc.sch at 18.12.2014 14:14:19
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device          Package               Library                       Sheet
+
+C1       22pF           C-EUC1206       C1206                 rcl                           1
+C2       22pF           C-EUC1206       C1206                 rcl                           1
+C3       100nF          C-EUC1206       C1206                 rcl                           1
+C4       100nF          C-EUC1206       C1206                 rcl                           1
+C5       100nF          C-EUC1206       C1206                 rcl                           1
+C6       470µF          CPOL-EUE5-10.5  E5-10,5               rcl                           1
+C7       100nF          C-EUC1206       C1206                 rcl                           1
+C9       100nF          C-EUC1206       C1206                 rcl                           1
+C10      10µF           C-EUC1206       C1206                 rcl                           1
+C11      100nF          C-EUC1206       C1206                 rcl                           1
+C13      100nF          C-EUC1206       C1206                 rcl                           1
+C15      100nF          C-EUC1206       C1206                 rcl                           1
+C16      100nF          C-EUC1206       C1206                 rcl                           1
+C17      100nF          C-EUC1206       C1206                 rcl                           1
+C18      100nF          C-EUC1206       C1206                 rcl                           1
+C19      1µF            C-EUC1206       C1206                 rcl                           1
+C20      1µF            C-EUC1206       C1206                 rcl                           1
+C21      1µF            C-EUC1206       C1206                 rcl                           1
+D1       BAS21          BAS40           SOT23                 diode                         1
+D2       BAS21          BAS40           SOT23                 diode                         1
+D3       BAS21          BAS40           SOT23                 diode                         1
+IC1      78L05F         78L05F          SOT89                 linear                        1
+LED1                    LEDCHIPLED_1206 CHIPLED_1206          led                           1
+Q1       16 MHz         CRYSTALHC49UP   HC49UP                crystal                       1
+R1       10             R-EU_R1206      R1206                 rcl                           1
+R2       10k            R-EU_R1206      R1206                 rcl                           1
+R3       15             R-EU_R1206      R1206                 rcl                           1
+R4       15             R-EU_R1206      R1206                 rcl                           1
+R5       15             R-EU_R1206      R1206                 rcl                           1
+R6       15             R-EU_R1206      R1206                 rcl                           1
+R7       15             R-EU_R1206      R1206                 rcl                           1
+R8       15             R-EU_R1206      R1206                 rcl                           1
+R9       680            R-EU_R1206      R1206                 rcl                           1
+R10                     RAC01           AC01                  resistor-power                1
+R11      4k7            R-EU_R1206      R1206                 rcl                           1
+R12      4k7            R-EU_R1206      R1206                 rcl                           1
+R13      4k7            R-EU_R1206      R1206                 rcl                           1
+R14      4k7            R-EU_R1206      R1206                 rcl                           1
+R15      4k7            R-EU_R1206      R1206                 rcl                           1
+R16      4k7            R-EU_R1206      R1206                 rcl                           1
+R17      4k7            R-EU_R1206      R1206                 rcl                           1
+R18      4k7            R-EU_R1206      R1206                 rcl                           1
+R19      4k7            R-EU_R1206      R1206                 rcl                           1
+R20      180            R-EU_R1206      R1206                 rcl                           1
+SV1                     ML6             ML6                   con-ml                        1
+SV2                     ML6             ML6                   con-ml                        1
+T1       IRFR1205       IRFR1205        DPACK                 IRF                           1
+T2       IRFR1205       IRFR1205        DPACK                 IRF                           1
+T3       IRFR1205       IRFR1205        DPACK                 IRF                           1
+T4       IRFR1205       IRFR1205        DPACK                 IRF                           1
+T5       IRFR1205       IRFR1205        DPACK                 IRF                           1
+T6       IRFR1205       IRFR1205        DPACK                 IRF                           1
+U$1      IR2104S        IR2104S         IR2104S               ir-2104                       1
+U$2      IR2104S        IR2104S         IR2104S               ir-2104                       1
+U$3      IR2104S        IR2104S         IR2104S               ir-2104                       1
+U1       ATMEGA48-20AU  ATMEGA48-20AU   QFP80P900X900X120-32N Atmel_By_element14_Batch_1-00 1
+X1                      W237-102        W237-102              con-wago-500                  1
+X2                      W237-103        W237-103              con-wago-500                  1
