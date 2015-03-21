@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -131,6 +131,10 @@
 <rectangle x1="2.8575" y1="1.5875" x2="3.4925" y2="2.2225" layer="42"/>
 <text x="39.37" y="36.83" size="1.2" layer="1">Akeman &amp; Belenon ESC 0.1</text>
 <text x="59.69" y="36.83" size="1.2" layer="16" rot="MR0">Akeman &amp; Belenon ESC 0.1</text>
+<rectangle x1="91.44" y1="30.7975" x2="96.52" y2="34.29" layer="41"/>
+<rectangle x1="95.25" y1="34.29" x2="96.52" y2="35.56" layer="41"/>
+<rectangle x1="69.85" y1="31.75" x2="74.93" y2="36.83" layer="41"/>
+<rectangle x1="74.93" y1="31.75" x2="77.47" y2="33.9725" layer="41"/>
 </plain>
 <libraries>
 <library name="Atmel_By_element14_Batch_1-00">
@@ -1851,7 +1855,7 @@ Low profile connectors, straight&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="designRules-2015-03">
+<designrules name="designRules-2015-03 *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1869,8 +1873,8 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="14mil"/>
-<param name="mdWirePad" value="14mil"/>
+<param name="mdWireWire" value="18mil"/>
+<param name="mdWirePad" value="18mil"/>
 <param name="mdWireVia" value="20mil"/>
 <param name="mdPadPad" value="14mil"/>
 <param name="mdPadVia" value="14mil"/>
@@ -2992,74 +2996,6 @@ design rules under a new name.</description>
 <wire x1="6.995" y1="15.865" x2="6.995" y2="12.71" width="1.016" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="11,1,d051739b720ed1c4"/>
-<approved hash="11,16,f57158bb5929f4e3"/>
-<approved hash="4,1,f606e714ae97949d"/>
-<approved hash="6,1,5f932304f8755aa6"/>
-<approved hash="6,1,af8e6bcdc6482846"/>
-<approved hash="6,1,04eac3b5ab0e46e8"/>
-<approved hash="6,1,c40870f5ab50c11d"/>
-<approved hash="6,1,0c8b42d5d2fb948b"/>
-<approved hash="6,1,7ca0ea92ece07eec"/>
-<approved hash="6,1,1426f2b22ba98aa7"/>
-<approved hash="6,1,547fc5e82a40f05d"/>
-<approved hash="5,1,50c857cf904d57ac"/>
-<approved hash="5,1,6147a8ae9a5bcd88"/>
-<approved hash="6,1,a3d2fa9d33c72f7b"/>
-<approved hash="6,1,ebdfab85cdd183bb"/>
-<approved hash="6,1,040ac4cdd27f2c3d"/>
-<approved hash="6,1,c45aacdb2abf3778"/>
-<approved hash="5,1,32ba704a5ef22237"/>
-<approved hash="19,1,48732e2ce6eb5ae0"/>
-<approved hash="19,1,e4256fea341ef2e3"/>
-<approved hash="19,1,5b795d9f06af8829"/>
-<approved hash="6,1,9a913d1d74752038"/>
-<approved hash="6,1,6a8e5034424270fa"/>
-<approved hash="6,1,850860eb516f07b9"/>
-<approved hash="6,1,4df9404f510e144e"/>
-<approved hash="5,1,b97d11e524ea0187"/>
-<approved hash="5,1,cd430f018f7fb532"/>
-<approved hash="5,1,3da3d1a5fd2e8b1e"/>
-<approved hash="5,1,371c5f00699ed991"/>
-<approved hash="6,1,dad3f51d3c623500"/>
-<approved hash="6,1,6ade5745ca686d60"/>
-<approved hash="6,1,8597c728d19ec9c6"/>
-<approved hash="6,1,4d5fa0fad1dedaa3"/>
-<approved hash="6,1,5a5c32046cd064a4"/>
-<approved hash="6,1,aad37bdf52a72e87"/>
-<approved hash="6,1,b25a0df8b59daeee"/>
-<approved hash="6,1,726b822eb55c2cc8"/>
-<approved hash="4,16,f606e714ae97949d"/>
-<approved hash="6,16,af8e6bcdc6482846"/>
-<approved hash="6,16,5f932304f8755aa6"/>
-<approved hash="6,16,04eac3b5ab0e46e8"/>
-<approved hash="6,16,c40870f5ab50c11d"/>
-<approved hash="6,16,0c8b42d5d2fb948b"/>
-<approved hash="6,16,7ca0ea92ece07eec"/>
-<approved hash="6,16,547fc5e82a40f05d"/>
-<approved hash="6,16,1426f2b22ba98aa7"/>
-<approved hash="6,16,a3d2fa9d33c72f7b"/>
-<approved hash="6,16,ebdfab85cdd183bb"/>
-<approved hash="6,16,c45aacdb2abf3778"/>
-<approved hash="6,16,040ac4cdd27f2c3d"/>
-<approved hash="6,16,9a913d1d74752038"/>
-<approved hash="6,16,6a8e5034424270fa"/>
-<approved hash="6,16,850860eb516f07b9"/>
-<approved hash="6,16,4df9404f510e144e"/>
-<approved hash="6,16,6d25c31dd27bfc3d"/>
-<approved hash="6,16,9d00ab3aec4ea7fa"/>
-<approved hash="6,16,3479834828002b43"/>
-<approved hash="6,16,f48670d2286fe5b9"/>
-<approved hash="6,16,6ade5745ca686d60"/>
-<approved hash="6,16,dad3f51d3c623500"/>
-<approved hash="6,16,4d5fa0fad1dedaa3"/>
-<approved hash="6,16,8597c728d19ec9c6"/>
-<approved hash="6,16,aad37bdf52a72e87"/>
-<approved hash="6,16,5a5c32046cd064a4"/>
-<approved hash="6,16,b25a0df8b59daeee"/>
-<approved hash="6,16,726b822eb55c2cc8"/>
-</errors>
 </board>
 </drawing>
 </eagle>
