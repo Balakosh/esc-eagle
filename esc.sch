@@ -18847,7 +18847,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
