@@ -19241,7 +19241,7 @@ W = angled&lt;p&gt;
 <part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="resistor-power" deviceset="R" device="AC01"/>
+<part name="R10" library="resistor-power" deviceset="R" device="CA5150"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>

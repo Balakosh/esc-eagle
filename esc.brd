@@ -23,12 +23,12 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -1602,21 +1602,21 @@ Based on the following sources:
 <description>&lt;b&gt;Vitrohm Power Resistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="AC01">
-<description>&lt;b&gt;Cemented Wirewound Resistors&lt;/b&gt;&lt;p&gt;
-Source: Vishay Dale .. acseries.pdf</description>
-<wire x1="-5.405" y1="-2.075" x2="5.43" y2="-2.075" width="0.1524" layer="21"/>
-<wire x1="5.43" y1="2.075" x2="-5.405" y2="2.075" width="0.1524" layer="21"/>
-<wire x1="-5.405" y1="2.075" x2="-5.405" y2="-2.075" width="0.1524" layer="21"/>
-<wire x1="5.43" y1="-2.075" x2="5.43" y2="2.075" width="0.1524" layer="21"/>
-<wire x1="-8.9" y1="0" x2="-7.62" y2="0" width="0.813" layer="51"/>
-<wire x1="7.62" y1="0" x2="8.9" y2="0" width="0.813" layer="51"/>
-<pad name="1" x="-8.9" y="0" drill="1.1" diameter="2"/>
-<pad name="2" x="8.9" y="0" drill="1.1" diameter="2"/>
-<text x="-5.715" y="2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<package name="CA5150">
+<description>&lt;b&gt;Wirewound Resistors, Commercial Power, Axial Lead&lt;/b&gt;&lt;p&gt;
+Source: Vishay Dale .. 30214.pdf</description>
+<wire x1="-18.97" y1="-2.075" x2="18.97" y2="-2.075" width="0.1524" layer="21"/>
+<wire x1="18.97" y1="2.075" x2="-18.97" y2="2.075" width="0.1524" layer="21"/>
+<wire x1="-18.97" y1="2.075" x2="-18.97" y2="-2.075" width="0.1524" layer="21"/>
+<wire x1="18.97" y1="-2.075" x2="18.97" y2="2.075" width="0.1524" layer="21"/>
+<wire x1="-22.225" y1="0" x2="-20.31" y2="0" width="0.813" layer="51"/>
+<wire x1="20.31" y1="0" x2="22.225" y2="0" width="0.813" layer="51"/>
+<pad name="1" x="-22.225" y="0" drill="1.2" diameter="2"/>
+<pad name="2" x="22.225" y="0" drill="1.2" diameter="2"/>
+<text x="-6.35" y="2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.445" y="-0.635" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-7.62" y1="-0.4064" x2="-5.48" y2="0.4064" layer="21"/>
-<rectangle x1="5.505" y1="-0.4064" x2="7.62" y2="0.4064" layer="21"/>
+<rectangle x1="-20.31" y1="-0.4064" x2="-19.04" y2="0.4064" layer="21"/>
+<rectangle x1="19.04" y1="-0.4064" x2="20.31" y2="0.4064" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2006,11 +2006,11 @@ design rules under a new name.</description>
 <element name="T6" library="IRF" package="DPACK" value="IRFR1205" x="44.1325" y="14.9225"/>
 <element name="R9" library="rcl" package="R1206" value="680" x="57.15" y="12.065" rot="R90"/>
 <element name="C15" library="rcl" package="C1206" value="100nF" x="59.69" y="12.065" rot="R90"/>
-<element name="R10" library="resistor-power" package="AC01" value="" x="63.1825" y="6.6675" rot="R180">
-<attribute name="OC_NEWARK" value="unknown" x="63.1825" y="6.6675" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="63.1825" y="6.6675" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="63.1825" y="6.6675" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="63.1825" y="6.6675" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R10" library="resistor-power" package="CA5150" value="" x="64.4525" y="5.08" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="64.4525" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="64.4525" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="64.4525" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="64.4525" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="rcl" package="R1206" value="4k7" x="69.5325" y="8.255" rot="MR270"/>
 <element name="R12" library="rcl" package="R1206" value="4k7" x="60.96" y="13.335" rot="MR90"/>
@@ -2433,17 +2433,17 @@ design rules under a new name.</description>
 <contactref element="U1" pad="1"/>
 <wire x1="6.0325" y1="23.8125" x2="5.3975" y2="23.8125" width="0.4064" layer="1"/>
 <wire x1="5.3975" y1="23.8125" x2="3.81" y2="25.4" width="0.4064" layer="1"/>
-<wire x1="3.81" y1="25.4" x2="3.81" y2="33.655" width="0.4064" layer="1"/>
+<wire x1="3.81" y1="25.4" x2="3.81" y2="31.75" width="0.4064" layer="1"/>
 <wire x1="71.823284375" y1="24.691971875" x2="73.1663125" y2="26.035" width="0.4064" layer="1"/>
 <wire x1="73.1663125" y1="26.035" x2="77.1525" y2="26.035" width="0.4064" layer="1"/>
 <wire x1="77.1525" y1="26.035" x2="77.7875" y2="26.9875" width="0.4064" layer="1"/>
 <via x="77.7875" y="26.9875" extent="1-16" drill="0.6"/>
-<via x="4.445" y="34.29" extent="1-16" drill="0.6"/>
-<wire x1="4.445" y1="34.29" x2="3.81" y2="33.655" width="0.4064" layer="1"/>
-<wire x1="69.85" y1="35.8775" x2="6.0325" y2="35.8775" width="0.4064" layer="16"/>
-<wire x1="6.0325" y1="35.8775" x2="4.445" y2="34.29" width="0.4064" layer="16"/>
+<via x="13.0175" y="35.8775" extent="1-16" drill="0.6"/>
+<wire x1="69.85" y1="35.8775" x2="13.0175" y2="35.8775" width="0.4064" layer="16"/>
 <wire x1="69.85" y1="35.8775" x2="77.7875" y2="27.94" width="0.4064" layer="16"/>
 <wire x1="77.7875" y1="27.94" x2="77.7875" y2="26.9875" width="0.4064" layer="16"/>
+<wire x1="3.81" y1="31.75" x2="7.9375" y2="35.8775" width="0.4064" layer="1"/>
+<wire x1="7.9375" y1="35.8775" x2="13.0175" y2="35.8775" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="D2" pad="3"/>
@@ -2707,10 +2707,10 @@ design rules under a new name.</description>
 <contactref element="T2" pad="3"/>
 <contactref element="R9" pad="1"/>
 <contactref element="R10" pad="2"/>
-<wire x1="54.2825" y1="6.6675" x2="54.2825" y2="5.3875" width="1.6764" layer="16"/>
 <wire x1="54.2825" y1="5.3875" x2="51.435" y2="3.81" width="1.6764" layer="16"/>
 <wire x1="51.435" y1="3.81" x2="44.45" y2="3.81" width="1.6764" layer="16"/>
-<wire x1="44.45" y1="3.81" x2="30.48" y2="3.81" width="1.6764" layer="16"/>
+<wire x1="44.45" y1="3.81" x2="41.91" y2="3.81" width="1.6764" layer="16"/>
+<wire x1="41.91" y1="3.81" x2="30.48" y2="3.81" width="1.6764" layer="16"/>
 <wire x1="30.48" y1="3.81" x2="15.24" y2="3.81" width="1.6764" layer="16"/>
 <via x="15.24" y="3.81" extent="1-16" drill="0.6"/>
 <wire x1="15.24" y1="3.81" x2="15.24" y2="7.62" width="1.6764" layer="1"/>
@@ -2723,11 +2723,12 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="8.16" x2="44.45" y2="5.08" width="1.016" layer="1"/>
 <via x="44.45" y="5.08" extent="1-16" drill="0.6"/>
 <wire x1="44.45" y1="5.08" x2="44.45" y2="3.81" width="1.6764" layer="16"/>
-<wire x1="54.2825" y1="6.6675" x2="54.2925" y2="6.6575" width="1.6764" layer="16"/>
-<wire x1="54.2925" y1="6.6575" x2="54.2925" y2="8.5725" width="1.6764" layer="16"/>
 <via x="54.2925" y="8.5725" extent="1-16" drill="0.6"/>
 <wire x1="54.2925" y1="8.5725" x2="54.458" y2="10.643" width="0.8128" layer="1"/>
 <wire x1="54.458" y1="10.643" x2="57.15" y2="10.643" width="0.8128" layer="1"/>
+<wire x1="54.2925" y1="8.5725" x2="54.2825" y2="8.5725" width="1.27" layer="16"/>
+<wire x1="54.2825" y1="8.5725" x2="54.2825" y2="5.3875" width="1.27" layer="16"/>
+<wire x1="42.2275" y1="5.08" x2="41.91" y2="3.81" width="1.27" layer="16"/>
 </signal>
 <signal name="NULL_A">
 <contactref element="R13" pad="1"/>
@@ -2947,6 +2948,18 @@ design rules under a new name.</description>
 <wire x1="53.0225" y1="17.145" x2="53.0225" y2="13.335" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$7">
+</signal>
+<signal name="N$23">
+<via x="2.54" y="36.83" extent="1-16" drill="2.8"/>
+</signal>
+<signal name="N$25">
+<via x="2.54" y="2.54" extent="1-16" drill="2.8"/>
+</signal>
+<signal name="N$26">
+<via x="96.2025" y="2.54" extent="1-16" drill="2.8"/>
+</signal>
+<signal name="N$27">
+<via x="96.2025" y="36.83" extent="1-16" drill="2.8"/>
 </signal>
 </signals>
 </board>
