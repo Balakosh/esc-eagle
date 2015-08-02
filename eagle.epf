@@ -244,6 +244,7 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/opto-trans-siemens.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/opto-transmittter-hp.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/opto-vishay.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/optocoupler.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/pad.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/pal.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/philips-semiconductors.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/photo-elements.lbr"
@@ -343,10 +344,10 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/zilog.lbr"
 [Win_1]
 Type="Schematic Editor"
 Loc="1320 424 1919 823"
-State=1
+State=3
 Number=1
 File="esc.sch"
-View="117.427 -64.6697 293.975 39.4026"
+View="-37.6212 -75.9804 328.469 139.824"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -378,16 +379,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 117.427 -64.6697 293.975 39.4026"
+Views=" 1: -37.6212 -75.9804 328.469 139.824"
 Sheet=1
 
 [Win_2]
 Type="Board Editor"
-Loc="0 0 599 399"
-State=1
+Loc="1320 0 1919 399"
+State=3
 Number=2
 File="esc.brd"
-View="12.2645 -6.66994 96.249 45.8459"
+View="54.094 13.515 87.8458 34.6199"
 WireWidths=" 3.81 6.4516 0 0.254 0.3048 2.54 2.1844 1.9304 1.778 1.6764 1.4224 1.27 1.016 0.8128 0.6096 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -422,12 +423,12 @@ Layer=1
 
 [Win_3]
 Type="Control Panel"
-Loc="652 381 1251 780"
-State=2
+Loc="652 321 1251 720"
+State=1
 Number=0
 
 [Desktop]
-Screen="2944 1200"
+Screen="3840 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
