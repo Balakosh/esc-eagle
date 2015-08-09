@@ -22,4 +22,4 @@ Routed            :         6         6         6         6         6
 Vias              :         7         2         2         2         2
 Resolution        :    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %
 
-Final             : 89.8% beendet. Polygone könnten in mehrere Teile zerfallen sein.
+Final             : 89.8% beendet. Polygone kÃ¶nnten in mehrere Teile zerfallen sein.
